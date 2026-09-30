@@ -10,14 +10,15 @@ I build systems that operate themselves. Then I upstream the hard parts.
 
 | Project | What |
 |---|---|
-| [**brand**](https://github.com/toxicwind/brand) | Native Hyprland plugin + MCP bridge — background agents drive the compositor without touching your session |
-| [**ranch**](https://github.com/toxicwind/ranch) | Agent swarm infrastructure — herd, flock, squawk, trailboss |
+| [**ranch**](https://github.com/toxicwind/ranch) | The whole self-hosted LLM estate in one monorepo — local serving (herd), cloud routing (flock), fleet chat (squawk), builds (flicker), cost accounting (ledger), GPU telemetry (windmill) |
 | [**roundup**](https://github.com/toxicwind/roundup) | Evaluate and enhance LLM deployments for real-world inference |
+| [**trading-post**](https://github.com/toxicwind/trading-post) | Emergent multi-agent task market — oracle triage, bidder execution, verified settlement |
+| [**trailboss**](https://github.com/toxicwind/trailboss) | Direct-to-main deploys with a web UI — no PR ceremony on your own repos |
 | [**effusion-labs**](https://github.com/toxicwind/effusion-labs) | The lab — ideas, prototypes, tools, shipped |
 
 ## Upstream
 
-I PR mainline repos, not forks of forks. Current: Hyprland compositor internals — in flight.
+I PR mainline repos, not forks of forks. Current: [Hyprland compositor internals](https://github.com/hyprwm/Hyprland/pull/16426) — making the `hl` Lua global read-only.
 
 ---
 
