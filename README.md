@@ -10,6 +10,7 @@ I build systems that operate themselves. Then I upstream the hard parts.
 
 | Project | What |
 |---|---|
+| [**tau**](https://github.com/toxicwind/tau) | The coding agent — terminal CLI + SDK, 30+ tools, subagents, native Rust hot path, 82 providers. If you learn one thing here, learn this |
 | [**ranch**](https://github.com/toxicwind/ranch) | The whole self-hosted LLM estate in one monorepo — local serving (herd), cloud routing (flock), fleet chat (squawk), builds (flicker), cost accounting (ledger), GPU telemetry (windmill) |
 | [**roundup**](https://github.com/toxicwind/roundup) | Evaluate and enhance LLM deployments for real-world inference |
 | [**trading-post**](https://github.com/toxicwind/trading-post) | Emergent multi-agent task market — oracle triage, bidder execution, verified settlement |
