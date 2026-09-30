@@ -1,46 +1,34 @@
 # toxicwind
 
-> **Autonomous systems · Security research · AI infrastructure**
+> **Autonomous systems · AI infrastructure · Compositor internals**
 
-Building tools that operate at the intersection of offensive security, distributed systems, and autonomous AI agents. 12+ years of shipping code that pushes boundaries.
-
----
-
-## 🔥 Featured Projects
-
-| Project | Description | Stars |
-|---------|-------------|-------|
-| [**many-never-one-private**](https://github.com/toxicwind/many-never-one-private) | Multi-kernel autonomous agent runtime with ZMQ bypass, CDP tunneling, and container-aware execution | ⭐ |
-| [**k3-capacity-hack**](https://github.com/toxicwind/k3-capacity-hack) | 9-endpoint daemon mesh for distributed agent orchestration with S6 autohealing | ⭐ |
-| [**experimental-crisis**](https://github.com/toxicwind/experimental-crisis-2026) | Dynamic system analyzer — unsupervised feature extraction, state invariant mapping, zero-dependency runtime harness | ⭐ |
-| [**reverse-kimi-envd-fixed**](https://github.com/toxicwind/reverse-kimi-envd-fixed) | Reverse-engineered sandbox runtime analysis with full environment state extraction | ⭐ |
-| [**seed-hunter**](https://github.com/toxicwind/seed-hunter) | OSINT seed corpus miner with NLP clustering and semantic weirdness detection | ⭐ |
-| [**bashagt**](https://github.com/toxicwind/bashagt) | Pure-bash agent kernel — 464 functions, 16K lines, zero external deps | ⭐ |
+I build systems that operate themselves. Then I upstream the hard parts.
 
 ---
 
-## 🧠 Research Focus
+## Now
 
-- **Sandbox escape & container security** — E2B-derived runtime analysis, FUSE filesystem exploitation, ZMQ kernel bypass
-- **Autonomous agent frameworks** — Multi-kernel orchestration, S6 supervision, daemon mesh architectures
-- **CVE analysis & PoC development** — Active vulnerability research with reproducible exploit chains
-- **AI infrastructure** — ComfyUI ecosystem (67+ nodes), model serving, distributed inference
+| Project | What |
+|---|---|
+| [**brand**](https://github.com/toxicwind/brand) | Native Hyprland plugin + MCP bridge — background agents drive the compositor without touching your session |
+| [**ranch**](https://github.com/toxicwind/ranch) | Agent swarm infrastructure — herd, flock, squawk, trailboss |
+| [**roundup**](https://github.com/toxicwind/roundup) | Evaluate and enhance LLM deployments for real-world inference |
+| [**effusion-labs**](https://github.com/toxicwind/effusion-labs) | The lab — ideas, prototypes, tools, shipped |
 
----
+## Upstream
 
-## 📊 Stats
-
-```
-225+ public repositories
-12+ years on GitHub
-Go · Python · Rust · TypeScript · Bash
-```
+I PR mainline repos, not forks of forks. Current: Hyprland compositor internals — in flight.
 
 ---
 
-## 🌐 Connect
+## Hire me
 
-- 🔗 [GitHub](https://github.com/toxicwind)
-- 🔗 [Kimi Team Recon](https://github.com/toxicwind/kimi-team-recon)
+**[effusionlabs.com/consulting](https://effusionlabs.com/consulting/)** — Creative Technical Consulting.
 
-> *"The best security research happens at the boundary between what the system claims to be and what it actually is under the hood."*
+Emergency threat neutralization. Hallucination elimination. Hardened release systems. Adversarial architecture.
+
+Not a discovery call. Threat assessment and triage.
+
+---
+
+Go · Rust · TypeScript · Python · Bash · C++ — 100+ repos, 12+ years shipping.
