@@ -1,25 +1,28 @@
 # toxicwind
 
-> **Autonomous systems · AI infrastructure · Compositor internals**
+> **Autonomous agent villages on consumer iron · AI infrastructure · Security research**
 
-I build systems that operate themselves. Then I upstream the hard parts.
+I build systems that operate themselves — then document how they broke, and upstream the hard parts.
 
 ---
 
 ## Now
 
+The estate: an autonomous multi-agent fleet that supervises its own daemons, routes its own inference, and files its own work orders — living on one consumer desktop with a 24 GB GPU and a $0 API budget.
+
 | Project | What |
 |---|---|
-| [**tau**](https://github.com/toxicwind/tau) | The coding agent — terminal CLI + SDK, 30+ tools, subagents, native Rust hot path, 82 providers. If you learn one thing here, learn this |
-| [**ranch**](https://github.com/toxicwind/ranch) | The whole self-hosted LLM estate in one monorepo — local serving (herd), cloud routing (flock), fleet chat (squawk), builds (flicker), cost accounting (ledger), GPU telemetry (windmill) |
+| [**tau**](https://github.com/toxicwind/tau) | The coding agent — terminal CLI + SDK, subagents, native Rust hot path. If you learn one thing here, learn this |
+| [**estate**](https://github.com/toxicwind/estate) | The control plane — mise toolchain SSOT, the pitchfork process table (100+ supervised daemons), fleet UI, the anomaly program |
+| [**hephaistos**](https://github.com/toxicwind/hephaistos) | The smith — 71-plugin MCP agent platform; one contract-pure core, plugins that build agents |
+| [**rig**](https://github.com/toxicwind/rig) | The agent operating system — Rust runtime where the village's named rigs live, schedule, and talk |
+| [**ranch**](https://github.com/toxicwind/ranch) | The service catalog — gem routers (rhodochrosite/bornite/azurite), the squawk fleet bus, model registries (mimetite) |
 | [**roundup**](https://github.com/toxicwind/roundup) | Evaluate and enhance LLM deployments for real-world inference |
-| [**trading-post**](https://github.com/toxicwind/trading-post) | Emergent multi-agent task market — oracle triage, bidder execution, verified settlement |
-| [**trailboss**](https://github.com/toxicwind/trailboss) | Direct-to-main deploys with a web UI — no PR ceremony on your own repos |
-| [**effusion-labs**](https://github.com/toxicwind/effusion-labs) | The lab — ideas, prototypes, tools, shipped |
+| [**eidolon**](https://github.com/toxicwind/eidolon) | Sprite forge — AI-generated pixel citizens for the fleet dashboard, image-gen behind one API |
 
 ## Upstream
 
-I PR mainline repos, not forks of forks. Current: [Hyprland compositor internals](https://github.com/hyprwm/Hyprland/pull/16426) — making the `hl` Lua global read-only.
+I PR mainline repos, not forks of forks.
 
 ---
 
